@@ -1,0 +1,270 @@
+/*Global*/
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 100%;
+}
+
+main {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+section.about, section.features {
+  padding-left: 156px;
+}
+
+/* Header */
+
+header {
+  background-color: #FFFFFF;
+}
+
+header a {
+  color: #434A54;
+}
+
+header h1 {
+  float: left;
+  font-family: 'Grand Hotel', Georgia;
+  font-size: 32px;
+  margin: 0;
+  padding: 17px 0px 14px 19px;
+}
+
+header a.nav-signin {
+  display: block;
+  float: right;
+  padding: 24px 32px 14px 19px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Hero */
+
+div.hero {
+  background: url('../img/interview_background.jpg') no-repeat center center;
+  background-size: cover;
+  height: 837px;
+  text-align: center;
+  font-size: 52px;
+  color: #FFFFFF;
+}
+
+div.hero p.tagline {
+  padding-top: 207px;
+  font-weight: 300;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+  letter-spacing: 0.035em;
+  line-height: 1.3;
+}
+
+div.hero a.button {
+  display: inline-block;
+  margin-top: 57px;
+  font-size: 22px;
+  color: #FFFFFF;
+  padding: 27px 89px;
+  background-color: #434A54;
+  border-radius: 4px;
+}
+
+/* About section */
+
+section.about {
+  overflow: hidden;
+  padding-top: 172px;
+  padding-bottom: 132px;
+}
+
+section.about div.left-content {
+  float: left;
+  width: 30%;
+  margin-right: 100px;
+  padding-top: 50px;
+  font-weight: 300;
+}
+
+section.about div.left-content h1 {
+  font-size: 52px;
+  color: #434A54;
+  margin-bottom: 32px;
+}
+
+section.about div.left-content p {
+  color: #A7B4C4;
+  font-size: 22px;
+  line-height: 1.3;
+}
+
+section.about div.right-content {
+  float: left;
+  width: 62.2%;
+}
+
+section.about div.right-content ul.users {
+  width: 402px;
+  margin: 0 auto;
+}
+
+section.about div.right-content ul.users li {
+  height: 88px;
+  margin-bottom: 94px;
+}
+
+section.about div.right-content ul.users li a.user-pic img {
+  width: 88px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+section.about div.right-content ul.users li a.user-description {
+  display: inline-block;
+  margin-top: 14px;
+  line-height: 1.3;
+}
+
+section.about div.right-content ul.users li a span:nth-child(1) {
+  font-size: 22px;
+  color: #A7B4C4;
+}
+
+section.about div.right-content ul.users li a span:nth-child(3) {
+  font-size: 18px;
+  color: #46B8DA;
+}
+
+/* Features section */
+
+section.features {
+  background-color: #A7B4C4;
+  color: #FFFFFF;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  overflow: hidden;
+}
+
+section.features div.left-content {
+  width: 21%;
+  float: left;
+}
+
+section.features div.left-content ul.feature-points li {
+  margin-bottom: 50px;
+}
+
+section.features div.left-content ul.feature-points li:last-child {
+  margin-bottom: 0;
+}
+
+section.features div.left-content ul.feature-points li i.icon {
+  font-size: 50px;
+  line-height: 1.1;
+}
+
+section.features div.left-content ul.feature-points li h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+section.features div.left-content ul.feature-points li p {
+  font-size: 18px;
+  color: #D3DAE2;
+  line-height: 1.3;
+}
+
+section.features div.right-content {
+  width: 79%;
+  float: left;
+  text-align: center;
+  padding-top: 130px;
+}
+
+section.features div.right-content h2 {
+  font-size: 52px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+section.features div.right-content p {
+  font-size: 18px;
+  color: #D3DAE2;
+  margin-bottom: 30px;
+}
+
+section.features div.right-content div.social-icons {
+  padding: 0 300px;
+  line-height: 1.7;
+}
+
+section.features div.right-content div.social-icons a span {
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+section.features div.right-content div.social-icons a i.icon {
+  font-size: 54px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+section.features div.right-content div.social-icons a i.ion-social-youtube {
+  color: #DA4453;
+}
+
+section.features div.right-content div.social-icons a i.ion-social-instagram-outline {
+  color: #2979AE;
+}
+
+section.features div.right-content div.social-icons a i.ion-social-snapchat-outline {
+  color: #FFFFFF;
+}
+
+section.features div.right-content div.social-icons a:first-of-type span {
+  margin-right: 77px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #434A54;
+  color: #D3DAE2;
+  overflow: hidden;
+  position: relative;
+}
+
+footer div.site-links {
+  float: left;
+  padding: 33px 0 33px 100px;
+}
+
+footer div.site-links div.link-group {
+  float: left;
+  display: block;
+  font-size: 18px;
+  margin-right: 61px;
+}
+
+footer div.site-links div.link-group span {
+  display: inline-block;
+  margin-bottom: 6px;
+  font-size: 18px;
+}
+
+footer div.site-links div.link-group ul li {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+footer small.copyright {
+  font-weight: 300;
+  float: right;
+  position: absolute;
+  right: 55px;
+  bottom: 23px;
+}
