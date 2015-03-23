@@ -14,7 +14,8 @@ a {
 }
 
 section.about, section.features {
-  padding-left: 156px;
+  padding-left: 10.83%;
+  padding-right: 10.83%;
 }
 
 /* Header */
@@ -82,8 +83,7 @@ section.about {
 
 section.about div.left-content {
   float: left;
-  width: 30%;
-  margin-right: 100px;
+  width: 385px;
   padding-top: 50px;
   font-weight: 300;
 }
@@ -101,8 +101,8 @@ section.about div.left-content p {
 }
 
 section.about div.right-content {
-  float: left;
-  width: 62.2%;
+  float: right;
+  margin-right: 5%;
 }
 
 section.about div.right-content ul.users {
@@ -149,7 +149,7 @@ section.features {
 }
 
 section.features div.left-content {
-  width: 21%;
+  width: 304px;
   float: left;
 }
 
@@ -179,10 +179,11 @@ section.features div.left-content ul.feature-points li p {
 }
 
 section.features div.right-content {
-  width: 79%;
-  float: left;
+  width: 478px;
+  float: right;
   text-align: center;
   padding-top: 130px;
+  margin-right: 8%;
 }
 
 section.features div.right-content h2 {
@@ -198,7 +199,6 @@ section.features div.right-content p {
 }
 
 section.features div.right-content div.social-icons {
-  padding: 0 300px;
   line-height: 1.7;
 }
 
